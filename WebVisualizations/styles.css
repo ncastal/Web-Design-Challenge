@@ -1,0 +1,13 @@
+body{
+    background-color: lightgray;
+}
+h2{
+    color: cadetblue;
+}
+section{
+    background-color: whitesmoke;
+    padding: 5%;
+}
+img{
+    padding: 2%;
+}
