@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>Comparisons</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <title>Lat vs Temp</title>
-  
 </head>
-<body> 
+<body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,39 +41,16 @@
         </div>
       </nav>
 <div class="container">
-<div class="row">
-    <section class="col-md-6">
-        <h2>Latitude Vs. Temperature</h2>
-            <img src="Images/lat_temp_scatter.png">
-            <p>
-                As expected, the temperature changes with latitude.  The closer to the equator (0 Deg Latitude), the higher the temperature.<br>
-                However, the southern hemisphere also appears to be warmer than the northern hemisphere. This may be a result of when the data was gathered which was in January of 2020.  The northern hemisphere would be expierencing winter while the sourthern hemisphere would be expierencing summer.
-            </p>
+   <div class="row">
+    <section class="col-md-10">
+        <h2>Latitude vs Temperature</h2>
+        <a href="temp.html"><img src="Images/lat_temp_scatter.png" class="rounded mx-auto d-block" width="100%" height="auto"></a>
+   </div>
+   <div class="row">
+        <h2>Latitude vs Wind Speed</h2>
+        <a href="wind_speed.html"><img src="Images/lat_wind_scatter.png" class="rounded mx-auto d-block" width="100%" height="auto"></a>
     </section>
-
-
-<div class="col-md-1">
-
-</div>  
-<section class="col-md-4">
-    <div class="row">
-        <div class="col-md-1">
-
-        </div>
-        <div class="col-md-4">
-            <h2>Visualizations</h2>
-        </div>
-    </div>
-    <div class="row">
-        <a href="temp.html"><img src="Images\lat_temp_scatter.png" height="100" width="160" alt="Lat_Temp_Scatter"></a> 
-        <a href="wind_speed.html"><img src="Images\lat_wind_scatter.png" height="100" width="160"></a>
-    </div>
-    <div class="row">
-        <a href="humidity.html"><img src="Images\lat_humidity_scatter.png" height="100" width="160"></a>
-        <a href="cloudiness.html"><img src="Images\lat_cloudiness_scatter.png" height="100" width="160"></a>
-    </div>
-</section>
-</div>
+   </div>
 </div>
 </body>
 </html>
