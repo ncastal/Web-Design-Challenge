@@ -44,7 +44,7 @@
         <div class="row">
             <section class="col-md-6">
         
-                <div class="col-md-8">
+                <div class="col-md-12">
                     <h2>Summary: Latitude vs. X</h2>
                 </div>
                    
@@ -53,7 +53,7 @@
                 </div>
             <div class="row">
                 <div class="col-md-12">
-                    <a href="temp.html"><img src="Images\lat_temp_scatter.png" class="rounded float-left" height="250" width="400"></a>
+                    <a href="temp.html"><img src="Images\lat_temp_scatter.png" class="rounded float-left" width="70%" height="auto"></a>
                     <p>The purpose of this analysis was to see how weather changes as we get closer to the equator.  To do this analysis, we first pulled data from OpenWeatherMap API to create a dataset of over 500 cities.<br>  
                         <br>After assembling the dataset, Matplotlib was used to plot the various aspects of the weather vs. latitde. Factors that were looked at included temperature, wind, humidity, and cloudiness. This site provides the source data and visualizatons created by the analysis as well as explainations of the trends and correlations found in the dataset.
                     </p>
@@ -63,13 +63,22 @@
 
         </div>
         <section class="col-md-4">
-            <div class="col-md-12">
-                <h2>Visualizatons</h2>
-                <a href="temp.html"><img src="Images\lat_temp_scatter.png" height="100" width="160" alt="Lat_Temp_Scatter"></a> 
-                <img src="Images\lat_wind_scatter.png" height="100" width="160">
-                <img src="Images\lat_humidity_scatter.png" height="100" width="160">
-                <img src="Images\lat_cloudiness_scatter.png" height="100" width="160">
-            </div>
+          <div class="row">
+              <div class="col-md-1">
+      
+              </div>
+              <div class="col-md-4">
+                  <h2>Visualizations</h2>
+              </div>
+          </div>
+          <div class="row">
+              <a href="temp.html"><img src="Images\lat_temp_scatter.png" height="100" width="160" alt="Lat_Temp_Scatter"></a> 
+              <a href="wind_speed.html"><img src="Images\lat_wind_scatter.png" height="100" width="160"></a>
+          </div>
+          <div class="row">
+              <a href="humidity.html"><img src="Images\lat_humidity_scatter.png" height="100" width="160"></a>
+              <a href="cloudiness.html"><img src="Images\lat_cloudiness_scatter.png" height="100" width="160"></a>
+          </div>
         </section>
 </div>
 </body>
